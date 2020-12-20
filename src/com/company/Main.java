@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        File input = new File("/home/joelz/IdeaProjects/SWAT+ updater/src/swatplus.txt");
+        File input = new File("/home/joelz/IdeaProjects/updater/src/swatplus.txt");
         Scanner scanner = new Scanner(input);
         System.out.println("Please enter the directory to be updated: ");
         final File updateDir = new File(scanner.nextLine());
