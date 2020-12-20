@@ -1,6 +1,6 @@
 /home/joelz/PycharmProjects/swatplus/src
 /home/joelz/Downloads/firefox.tmp/blacklandgrasslandmodels-modular_swatplus-e2aa3c7dcdeb/source_codes
-main.f90,time_control.f90,CMakeLists.txt,cbn_zhang2.f90,ru_module.f90
+main.f90,time_control.f90,CMakeLists.txt,cbn_zhang2.f90,ru_module.f90,hru_module.f90
 Explanation:
 
 main.f90 & time_control.f90 & CMakeLists.txt: include Tinamit specific code
@@ -9,3 +9,6 @@ cbn_zhang2.f90: throws error when update is run so it is updated manually
 
 ru_module.f90: the bitbucket files for swat+ are erroneous;
  they delete "uhs" from this file which is required by the rest of the model
+
+hru_module.f90: the bitbucket files for swat+ are erroneous;
+ they delete "lai_yrmx" from this file which is required by the rest of the model
