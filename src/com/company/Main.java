@@ -45,24 +45,15 @@ public class Main {
             FileOutputStream fos = new FileOutputStream(newFile);
 
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
-            /*
-            if(newFile.getName().equals("cbn_zhang2.f90")) {
-                System.out.println(source.getAbsolutePath());
-            }
-            */
+
             while (sourceScanner.hasNextLine()) {
                 String line = sourceScanner.nextLine();
-                /*
-                if(newFile.getName().equals("cbn_zhang2.f90")) {
-                    System.out.println("Printing this line to cbn_zhang2.f90" + line);
-                }
-                */
                 bw.write(line);
                 bw.newLine();
             }
             bw.close();
 
-            //System.out.println("Source files for update: " + source.getName());
+            System.out.println("Source files for update: " + source.getName());
         }
     }
 
